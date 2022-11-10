@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Events</title>
+</head>
+<body onkeypress="A2()" onscroll="A2()" onresize="A2()">
+    <h2>Events</h2>
+    <button onclick="A1()">Click Me 1</button>
+    <button onclick="A2()">Click Me 2</button>
+
+    <p ondblclick="A1()">Double Click On ME</p>
+    <p ondblclick="A2()">Double Click On ME</p>
+
+    <p onmouseenter="A1()">On Mouse Enter</p>
+    <p onmouseenter="A2()">On Mouse Out</p>
+
+    <script>
+        function A1()
+        {
+            document.write("Hello jaymin");
+        }
+        function A2()
+        {
+            alert("Hello jaymin");
+        }
+    </script>
+</body>
+</html>
